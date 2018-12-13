@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>cl.apiservice</groupId>
-	<artifactId>config</artifactId>
-	<version>0.0.1</version>
+	<artifactId>configserver</artifactId>
+	<version>1.0.0</version>
 	<packaging>jar</packaging>
-	<name>config</name>
+	<name>configserver</name>
 	<description>Spring Boot de Config</description>
 
 	<properties>
