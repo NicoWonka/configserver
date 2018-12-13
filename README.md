@@ -1,2 +1,2 @@
 # config-server
-Multiples variables
+Servidor de configuraciones.
