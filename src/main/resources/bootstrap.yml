@@ -10,12 +10,11 @@ spring:
         
 server.port: ${PORT:8888}
 
-
-#management.security.enabled: false
 security:
   basic:
     enabled: true
+    path: /**
   user:
     name: config
-    password: config
+    password: bmljb3dvbmth
     role: SYSTEM
