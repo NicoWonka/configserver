@@ -7,3 +7,15 @@ spring:
     server:
       git:
         uri: https://github.com/NicoWonka/config
+        
+server.port: ${PORT:8888}
+
+
+#management.security.enabled: false
+security:
+  basic:
+    enabled: true
+  user:
+    name: config
+    password: config
+    role: SYSTEM
