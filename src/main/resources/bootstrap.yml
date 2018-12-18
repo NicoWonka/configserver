@@ -2,7 +2,7 @@ info:
   component: Config Server
 
 spring:
-  application.name: config-server
+  application.name: configserver
   cloud.config:
     server:
       git:
